@@ -1,0 +1,60 @@
+﻿  Algorithm.cpp
+g:\fmi\source\repos\huffmancompression\huffmancompression\algorithm.cpp(266): warning C4018: '<': signed/unsigned mismatch
+g:\fmi\source\repos\huffmancompression\huffmancompression\algorithm.cpp(268): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+g:\fmi\source\repos\huffmancompression\huffmancompression\algorithm.cpp(402): warning C4018: '<': signed/unsigned mismatch
+g:\fmi\source\repos\huffmancompression\huffmancompression\dynamictable.hpp(89): warning C4018: '<': signed/unsigned mismatch
+  g:\fmi\source\repos\huffmancompression\huffmancompression\dynamictable.hpp(83): note: while compiling class template member function 'void DynamicTable<char,size_t>::deleteZeros(void)'
+  g:\fmi\source\repos\huffmancompression\huffmancompression\algorithm.cpp(201): note: see reference to function template instantiation 'void DynamicTable<char,size_t>::deleteZeros(void)' being compiled
+  g:\fmi\source\repos\huffmancompression\huffmancompression\algorithm.cpp(102): note: see reference to class template instantiation 'DynamicTable<char,size_t>' being compiled
+g:\fmi\source\repos\huffmancompression\huffmancompression\dynamictable.hpp(103): warning C4018: '<': signed/unsigned mismatch
+g:\fmi\source\repos\huffmancompression\huffmancompression\vector.hpp(130): warning C4018: '>=': signed/unsigned mismatch
+  g:\fmi\source\repos\huffmancompression\huffmancompression\vector.hpp(128): note: while compiling class template member function 'Type &Vector<Type>::operator [](const int &)'
+          with
+          [
+              Type=Pair<char,size_t>
+          ]
+  g:\fmi\source\repos\huffmancompression\huffmancompression\dynamictable.hpp(62): note: see reference to function template instantiation 'Type &Vector<Type>::operator [](const int &)' being compiled
+          with
+          [
+              Type=Pair<char,size_t>
+          ]
+  g:\fmi\source\repos\huffmancompression\huffmancompression\dynamictable.hpp(36): note: while compiling class template member function 'DynamicTable<char,size_t>::DynamicTable(void)'
+  g:\fmi\source\repos\huffmancompression\huffmancompression\algorithm.cpp(102): note: see reference to function template instantiation 'DynamicTable<char,size_t>::DynamicTable(void)' being compiled
+g:\fmi\source\repos\huffmancompression\huffmancompression\vector.hpp(140): warning C4018: '>=': signed/unsigned mismatch
+  g:\fmi\source\repos\huffmancompression\huffmancompression\vector.hpp(138): note: while compiling class template member function 'const Type &Vector<Type>::operator [](const int &) const'
+          with
+          [
+              Type=Node *
+          ]
+  g:\fmi\source\repos\huffmancompression\huffmancompression\minheap.hpp(129): note: see reference to function template instantiation 'const Type &Vector<Type>::operator [](const int &) const' being compiled
+          with
+          [
+              Type=Node *
+          ]
+  g:\fmi\source\repos\huffmancompression\huffmancompression\minheap.hpp(124): note: while compiling class template member function 'Type MinHeap<Type>::top(void) const'
+          with
+          [
+              Type=Node *
+          ]
+  g:\fmi\source\repos\huffmancompression\huffmancompression\algorithm.cpp(219): note: see reference to function template instantiation 'Type MinHeap<Type>::top(void) const' being compiled
+          with
+          [
+              Type=Node *
+          ]
+  g:\fmi\source\repos\huffmancompression\huffmancompression\algorithm.cpp(106): note: see reference to class template instantiation 'MinHeap<Node *>' being compiled
+  Main.cpp
+g:\fmi\source\repos\huffmancompression\huffmancompression\fileuniter.h(122): warning C4018: '<': signed/unsigned mismatch
+g:\fmi\source\repos\huffmancompression\huffmancompression\vector.hpp(151): warning C4018: '>=': signed/unsigned mismatch
+  g:\fmi\source\repos\huffmancompression\huffmancompression\vector.hpp(149): note: while compiling class template member function 'Type &Vector<Type>::at(const int &)'
+          with
+          [
+              Type=str
+          ]
+  g:\fmi\source\repos\huffmancompression\huffmancompression\fileuniter.h(124): note: see reference to function template instantiation 'Type &Vector<Type>::at(const int &)' being compiled
+          with
+          [
+              Type=str
+          ]
+  g:\fmi\source\repos\huffmancompression\huffmancompression\fileuniter.h(83): note: see reference to class template instantiation 'Vector<str>' being compiled
+  Generating Code...
+  HuffmanCompression.vcxproj -> G:\fmi\source\repos\HuffmanCompression\Debug\HuffmanCompression.exe
